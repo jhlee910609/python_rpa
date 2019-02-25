@@ -3,6 +3,7 @@ from os.path import isdir
 import shutil
 import os
 
+
 originDir = "/Volumes/samsung_ssd/img_files/"
 outDir = "/Volumes/samsung_ssd/img_files/"
 fileList = listdir(originDir)

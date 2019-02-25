@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f1da3b7-5095-4347-8c85-da8dd98f4604" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrange_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/arrange_file.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,76 +16,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example.py">
+        <entry file="file://$PROJECT_DIR$/twitter_crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="103">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users_id.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="230">
+              <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arrange_file.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/instagram_heart_breaker.py">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feed_parser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-              <folding>
-                <element signature="e#15#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new_crawler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/send_email.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csv_example_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/excel_example_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="54">
+              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
             </state>
           </provider>
         </entry>
@@ -103,9 +75,18 @@
       <find>ssssyouhu7</find>
       <find>`</find>
       <find>file</find>
+      <find>NON</find>
+      <find>ssl._create_default_https_context</find>
+      <find>coco</find>
+      <find>&quot;</find>
+      <find>&quot;,</find>
+      <find>MjQPob4j3OJlhuS</find>
+      <find>io_ojv</find>
+      <find>from_a_ran_</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>`</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -123,15 +104,19 @@
         <option value="$PROJECT_DIR$/05_filtered.py" />
         <option value="$PROJECT_DIR$/venv/arragne_file.py" />
         <option value="$PROJECT_DIR$/arragne_file_example.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/arragne_file.py" />
         <option value="$PROJECT_DIR$/example.py" />
         <option value="$PROJECT_DIR$/csv_example_1.py" />
         <option value="$PROJECT_DIR$/excel_example_1.py" />
         <option value="$PROJECT_DIR$/feed_parser.py" />
         <option value="$PROJECT_DIR$/new_crawler.py" />
-        <option value="$PROJECT_DIR$/arrange_file.py" />
         <option value="$PROJECT_DIR$/instagram_heart_breaker.py" />
+        <option value="$PROJECT_DIR$/venv/twitter_img_crawler.py" />
+        <option value="$PROJECT_DIR$/twitter_img_crawler.py" />
+        <option value="$PROJECT_DIR$/arrange_file.py" />
+        <option value="$PROJECT_DIR$/users_id.csv" />
+        <option value="$PROJECT_DIR$/twitter_crawler.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -147,6 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,15 +140,18 @@
               <item name="python_rpa" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_rpa" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python_rpa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="add_unversioned_files" value="true" />
+    <property name="add_unversioned_files" value="true&#10;/Users/JunHee/Desktop/python_rpa/venv/twitter_img_crawler.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -183,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.instagram_heart_breaker">
+  <component name="RunManager" selected="Python.twitter_crawler">
     <configuration name="arrange_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_example" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,48 +186,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arrange_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="excel_example_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_example" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel_example_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="feed_parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_example" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feed_parser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,13 +236,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="twitter_crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitter_crawler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="twitter_img_crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitter_img_crawler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.twitter_crawler" />
+        <item itemvalue="Python.twitter_img_crawler" />
         <item itemvalue="Python.instagram_heart_breaker" />
         <item itemvalue="Python.arrange_file" />
         <item itemvalue="Python.new_crawler" />
-        <item itemvalue="Python.feed_parser" />
-        <item itemvalue="Python.excel_example_1" />
       </list>
     </recent_temporary>
   </component>
@@ -312,23 +301,31 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31987077" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33925685" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49757674" visible="true" weight="0.43150684" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39863014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32876712" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924472" weight="0.32739726" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5024233" side_tool="true" weight="0.32739726" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -347,6 +344,32 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="splited_url" language="Python" />
+        <watch expression="url" language="Python" />
+        <watch expression="user_id" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>user_id</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>url</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>splited_url</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pandas_example.py" />
@@ -396,13 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/-1199943126/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="2337" column="8" selection-start-line="2337" selection-start-column="8" selection-end-line="2337" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/os.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -412,13 +428,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/arragne_file_example.py" />
     <entry file="file://$PROJECT_DIR$/arragne_file.py" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/openpyxl/workbook/workbook.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -447,54 +456,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arrange_file.py">
+    <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/common/service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1020">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="135">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feed_parser.py">
+    <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/tweepy/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-          <folding>
-            <element signature="e#15#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="148">
+          <caret line="1125" column="8" selection-start-line="1125" selection-start-column="8" selection-end-line="1125" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_crawler.py">
+    <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/common/by.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/send_email.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv_example_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="309">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -508,13 +494,139 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-363">
+          <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="623" selection-start-line="623" selection-end-line="623" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/instagram_heart_breaker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="137">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_example_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/send_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_img_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="87" column="32" lean-forward="true" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/매출_통계.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="66" />
+          <folding>
+            <element signature="e#15#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrange_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/-1199943126/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="352" column="4" selection-start-line="352" selection-start-column="4" selection-end-line="352" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/-1199943126/_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users_id.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="230">
+          <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
         </state>
       </provider>
     </entry>
