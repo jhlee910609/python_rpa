@@ -7,7 +7,7 @@ from openpyxl import load_workbook
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 
-SCROLL_PAUSE_TIME = 1
+SCROLL_PAUSE_TIME = 2
 FILE_NAME = "./partner_list_2.xlsx"
 
 def move_to_scroll_down(last_height):
