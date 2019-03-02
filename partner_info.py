@@ -10,7 +10,6 @@ from selenium.common.exceptions import NoSuchElementException
 SCROLL_PAUSE_TIME = 1
 FILE_NAME = "./partner_list_2.xlsx"
 
-
 def move_to_scroll_down(last_height):
     while True:
         # Scroll down to bottom
@@ -54,11 +53,18 @@ def make_new_sheet(partner_name):
     partner_sheet['F1'] = '주소'
     partner_sheet['G1'] = datetime.datetime.now()
 
+def set_headless_opt():
+    options = webdriver.ChromeOptions()
+    options.add_argument('headless')
+    options.add_argument('window-size=1920x1080')
+    options.add_argument("disable-gpu")
+    return options
+
 
 partner_list = get_partner_list_from_xlsx()
 start_time = datetime.datetime.now()
 ssl._create_default_https_context = ssl._create_unverified_context
-driver = webdriver.Chrome("./chromedriver")
+driver = webdriver.Chrome("./chromedriver", options=set_headless_opt())
 del partner_list['파트너명']
 
 for partner_name in partner_list.keys():
