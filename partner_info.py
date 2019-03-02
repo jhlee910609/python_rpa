@@ -1,26 +1,11 @@
 import datetime
 import re
 import ssl
-from telnetlib import EC
-from urllib.request import urlopen
-
-import requests
-from docutils.parsers.rst.directives import body
-from selenium import webdriver
-import csv
-from os import listdir, makedirs
-from os.path import isdir
-import os
-import urllib
 import time
-from bs4 import BeautifulSoup
+
+from openpyxl import load_workbook
+from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.action_chains import ActionChains
-from openpyxl import load_workbook, Workbook
-from selenium.webdriver.support.wait import WebDriverWait
-from multiprocessing import Pool
 
 SCROLL_PAUSE_TIME = 1
 FILE_NAME = "./partner_list_2.xlsx"
