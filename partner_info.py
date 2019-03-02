@@ -10,6 +10,7 @@ from selenium.common.exceptions import NoSuchElementException
 SCROLL_PAUSE_TIME = 1
 FILE_NAME = "./partner_list_2.xlsx"
 
+
 def move_to_scroll_down(last_height):
     while True:
         # Scroll down to bottom
@@ -32,7 +33,7 @@ load_wb = load_workbook(FILE_NAME, data_only=True)
 
 def get_partner_list_from_xlsx():
     parter_list = {}
-    load_ws = load_wb["파트너_리스트"]
+    load_ws = load_wb["파트너_선별"]
     for row in load_ws:
         parter_list[row[0].value] = row[1].value
     return parter_list
@@ -84,7 +85,6 @@ for partner_name in partner_list.keys():
             inner_view = driver.find_element_by_class_name('inner_view')
             tit_view = inner_view.find_element_by_class_name("tit_view")
             rel_view = inner_view.find_element_by_class_name('rel_view')
-
             # info
             view_count = rel_view.find_element_by_class_name('rel_read').find_element_by_class_name(
                 'emph_number').text
@@ -96,12 +96,21 @@ for partner_name in partner_list.keys():
                 date, partner_name, tit_view.text, view_count, comment_count, url))
             #
             # # date, editor's name, title, view count, reply
-            partner_sheet.append(date, partner_name, tit_view.text, view_count, comment_count, url)
+            partner_sheet.append([date, partner_name, tit_view.text, view_count, comment_count, url])
             # load_wb.save("./partner_list.xlsx")
 
         except NoSuchElementException as e:
+            print(e)
+            # inner_info = driver.find_element_by_class_name("inner_info")
+            # title = inner_info.find_element_by_class_name("tit_view").text
+            # date = inner_info.find_element_by_class_name("rel_date").find_element_by_class_name('emph_number').text
+            # view_count = inner_info.find_element_by_class_name('rel_read').find_element_by_class_name(
+            #     'emph_number').text
+            # comment_count = inner_info.find_element_by_class_name('useutil_btn').find_element_by_class_name(
+            #     'comment_count').text
+            # print("%s, %s, %s, %s, %s, %s")%(date, partner_name, time, view_count, comment_count, url)
             partner_sheet.append(["", "", "", "", "", url])
-            # load_wb.save("./partner_list.xlsx")
+            load_wb.save(FILE_NAME)
             pass
 
         except Exception as e:
