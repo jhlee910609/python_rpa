@@ -9,15 +9,15 @@ import os
 import urllib
 import time
 
-driver = webdriver.Chrome("./chromedriver")
-base_url = 'https://twitter.com/'
-# users = []
 
-users = ["CHERRY_02_20"]
 
-base_path = '/Users/JunHee/Downloads/twitter_img'
-SCROLL_PAUSE_TIME = 2
-ssl._create_default_https_context = ssl._create_unverified_context
+def set_headless_opt():
+    options = webdriver.ChromeOptions()
+    options.add_argument('headless')
+    options.add_argument('window-size=1920x1080')
+    options.add_argument("disable-gpu")
+    return options
+
 
 
 def make_folder(target_dir):
@@ -58,11 +58,21 @@ def write_date(date):
     f = open(out_dir + "/date.csv", "w", encoding='utf-8', newline='')
     f.write(date)
 
+driver = webdriver.Chrome("./chromedriver", options=set_headless_opt())
+base_url = 'https://twitter.com/'
+# users = []
+
+users = ["EIMI_FUKADA"]
+
+base_path = '/Users/JunHee/Downloads/twitter_img'
+SCROLL_PAUSE_TIME = 2
+ssl._create_default_https_context = ssl._create_unverified_context
+
 
 start_time = time.time()
 # get_users()
-user_count = 1
 total_user = len(users)
+user_count = 1
 for user in users:
     out_dir = base_path + "/" + "@" + user
     url = base_url + user + "/media"
